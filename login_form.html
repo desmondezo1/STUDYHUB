@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Epiphany.com</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/user.css">
+</head>
+
+<body id="login">
+    
+    <div class="Absolute-center is-Responsive">
+    <form method="post" class="form-horizontal"><span class="label label-primary">Email </span>
+        <input type="text" placeholder="input email" autocomplete="on" inputmode="email" required pattern="[a-z0-9.-%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" name="email" class="form-control input-sm" /><span class="label label-primary">Password </span>
+       
+        <input type="password" name="password" placeholder="password" class="form-control" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"/>
+     <i style="color:red; font-size:9px;">Minimum of 8 letters and at least an Uppercase letter and a number</i>
+        <div class="form-group">
+        <button type="submit" class="btn btn-def btn-block">Login</button>
+        </div>
+        <div class="form-group text-center">
+            <a href="#">Forgot Password</a>&nbsp;|&nbsp;<a href="#">Support</a>
+        </div>
+        </form>
+</div>
+
+    <footer></footer>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header"><a class="navbar-brand navbar-link" href="#">StudyHUB </a>
+                <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+            </div>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="nav navbar-nav">
+                    <li class="active" role="presentation"><a href="index.html">Home </a></li>
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="#">Learn </a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li role="presentation"><a href="#">Academics</a></li>
+                            <li role="presentation"><a href="#">A Skill</a></li>
+                            <li role="presentation"><a href="#">School Hacks</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="#">Become a Tutor </a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li role="presentation"><a href="#">Teach a course</a></li>
+                            <li role="presentation"><a href="#">Teach a skill</a></li>
+                            <li role="presentation"><a href="#">Organize a meet-up</a></li>
+                        </ul>
+                    </li>
+                    <li role="presentation"><a href="#">Learn a skill</a></li>
+                    <li role="presentation"><a href="about.html">About </a></li>
+                    <li role="presentation"><a href="login_form.html" id="login">Register</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="dropdown">
+        <button class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false" type="button">Dropdown <span class="caret"></span></button>
+        <ul class="dropdown-menu" role="menu">
+            <li role="presentation"><a href="#">First Item</a></li>
+            <li role="presentation"><a href="#">Second Item</a></li>
+            <li role="presentation"><a href="#">Third Item</a></li>
+        </ul>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
