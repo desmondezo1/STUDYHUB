@@ -1,2 +1,2 @@
 # STUDYHUB
-Student based platfor for peer to peer learning
+This is a Student based web platform for peer to peer and student centered learning
